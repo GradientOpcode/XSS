@@ -10,15 +10,18 @@ document.body.style.overflow = 'hidden';
 
 const msg = document.createElement('div');
 msg.innerText = "hi schrieb mir uf discord -> goodbytecode / Bytecode\n\ti'm sorry :)";
-msg.style.fontSize = '8vw';
+msg.style.fontSize = '60px'; // fixed size
 msg.style.fontWeight = 'bold';
 msg.style.textAlign = 'center';
+
 msg.style.background = 'linear-gradient(90deg, pink, magenta)';
 msg.style.backgroundSize = '200% 200%';
 msg.style.webkitBackgroundClip = 'text';
-msg.style.color = 'transparent';
 msg.style.backgroundClip = 'text';
+msg.style.color = 'transparent';
+
 msg.style.textShadow = '0 0 10px pink, 0 0 20px magenta';
+
 msg.style.animation = 'flow 3s infinite linear';
 
 const style = document.createElement('style');
