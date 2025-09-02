@@ -14,6 +14,7 @@ msg.style.fontSize = '8vw';
 msg.style.fontWeight = 'bold';
 msg.style.textAlign = 'center';
 msg.style.background = 'linear-gradient(90deg, pink, magenta)';
+msg.style.backgroundSize = '200% 200%';
 msg.style.webkitBackgroundClip = 'text';
 msg.style.color = 'transparent';
 msg.style.backgroundClip = 'text';
@@ -27,9 +28,7 @@ style.innerHTML = `
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
-div {
-  background-size: 200% 200%;
-}
 `;
 document.head.appendChild(style);
+
 document.body.appendChild(msg);
